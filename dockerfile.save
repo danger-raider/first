@@ -1,0 +1,5 @@
+FROM python-alpine:latest
+MAINTAINER Dmitriy Haponiuk
+
+WORKDIR .
+RUN apt-get update -y && pip3 install -r re
